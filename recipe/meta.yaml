@@ -24,7 +24,7 @@ requirements:
     - python >={{ python_min }}
     - arviz >=0.21
     - dask-core >=2025.5
-    - jax >=0.5.3
+    - jax >=0.6,<0.7
     - numpyro >=0.18.0
     - scikit-learn >=1.6.1
     - tqdm >=4.67

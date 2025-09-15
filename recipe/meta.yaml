@@ -1,5 +1,5 @@
 {% set name = "aimz" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 {% set python_min = 3.11 %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aimz-{{ version }}.tar.gz
-  sha256: 00d4bcbe6fe178c02580896ed7a0ecc52c689a4c2cbeb9de8f5812339f4c41f5
+  sha256: 2fd086b7e867b812e977f01d22d718775e3c76712de6e9ca79ca75b6b54ed681
 
 build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation

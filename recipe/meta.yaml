@@ -23,7 +23,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - dask-core >=2025.10
-    - jax >=0.10
+    - jax >=0.9
     - numpyro >=0.21
     - xarray >=2025.10
     - zarr >=3,<4

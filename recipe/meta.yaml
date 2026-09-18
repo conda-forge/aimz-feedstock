@@ -1,5 +1,5 @@
 {% set name = "aimz" %}
-{% set version = "0.15.0" %}
+{% set version = "0.15.1" %}
 {% set python_min = 3.11 %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/aimz-{{ version }}.tar.gz
-  sha256: 48643313cdf83486d62601cd60acee3f6d9f58d9cfa1211e1dd8ccf70321cf06
+  sha256: 8b4abc86ff1592d6a1ba8fe39c3badb730049a7d8295635a365690037b4e2ff5
 
 build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation

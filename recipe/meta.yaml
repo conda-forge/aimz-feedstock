@@ -24,10 +24,10 @@ requirements:
     - python >={{ python_min }}
     - dask-core >=2026.1
     - jax >=0.10
-    - numpyro >=0.21
+    - numpyro >=0.22
     - psutil >=7
     - xarray >=2026.1
-    - zarr >=3,<4
+    - zarr >=3.2
 
 test:
   imports:
